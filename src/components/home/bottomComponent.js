@@ -33,7 +33,7 @@ const BottomComponent = () => {
     useEffect( () => {
         loopFunction(5, setYears)
         loopFunction(10, setClients)
-        loopFunction(8, setProjects)
+        loopFunction(9, setProjects)
     },[])
 
   return (
