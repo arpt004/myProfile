@@ -1,0 +1,65 @@
+
+
+.navbar{
+    position: relative;
+    display: flex;
+}
+
+.selectedPage{
+    color: #fff !important;
+}
+
+/* navbar header */
+.navbar-header{
+    text-align: center;
+    width: 20%;
+}
+.navbar-header h1{
+    color: #fff;
+}
+
+/*  Navbar list */
+.navbar-list{
+    width: 60%;
+}
+.navbar-ul{
+    display: flex;
+    margin-left: 16%;
+}
+.navbar-ul li{
+    list-style-type: none;
+    margin: 0.3rem 1.5rem;
+}
+.navbar-ul li a{
+    font-size: 18px;
+    color: #676767;
+    text-decoration: none;
+    transition: .3s;
+}
+.navbar-ul li a:hover{
+    color: #fff;
+}
+
+/*  navbar talk */
+.navbar-talk{
+    width: 20%;
+    margin: 0.3rem;
+}
+.navbar-talk button{
+    background: #323232;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    transition: .3s;
+    border-radius: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 30px;
+}
+.navbar-talk button:hover{
+    background: #fff;
+    color: #323232;
+}
+
+
+

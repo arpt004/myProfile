@@ -1,0 +1,64 @@
+{
+  "johnson_n_johnson": {
+    "header": "Johnson & Johnson",
+    "responsibilities": [
+      "Design and develop UI for Dev Assist Generative AI Project",
+      "Completed MVP1 and deployed successfully in development, demo, and QA environment.",
+      "Fixing and optimizing code for any issue and enhancement.",
+      "Created dynamic components to reuse the same code.",
+      "creating multiple UI design as per client requirement."
+    ]
+  },
+  "maxis": {
+    "header": "Maxis",
+    "responsibilities": [
+      "Individually Developed multiple use cases for chatbot such as Sentiment Analysis, Hybrid Bot",
+      "Debugging and fixing production issue and keep adding new use case.",
+      "Working on code quality fixes to make the code better.",
+      "Technology used: Node JS, DialogFlow ES, AWS, DynamoDB."
+    ]
+  },
+  "ishelf_insight": {
+    "header": "Ishelf Insight",
+    "responsibilities": [
+      "Responsible for running the application. Responsible to debug the code to fix the errors.",
+      "Responsible for the UI design changes and to fix backend APIs.",
+      "Technology used: Node JS, Azure"
+    ]
+  },
+  "cognitive_case_intake": {
+    "header": "Cognitive Case Intake (CCI)",
+    "responsibilities": [
+      "Responsible for the UI design changes using Angular JS",
+      "Responsible for connecting UI to backend."
+    ]
+  },
+  "ccai": {
+    "header": "Cloud Contact Center AI (CCAI)",
+    "responsibilities": [
+      "Responsible for creating chatbot from scratch and connecting it with pre-developed apps and AI Platforms like CCI, Virtual AI, IDP etc.",
+      "Technology used: DialogFlow CX, Google CCAI, GCP and NodeJS"
+    ]
+  },
+  "coe_portal": {
+    "header": "COE Portal",
+    "responsibilities": [
+      "Creating a platform which generates score by checking multiple project parameters which enable user to select project among multiple projects.",
+      "Technology used: React JS"
+    ]
+  },
+  "oracle": {
+    "header": "Oracle",
+    "responsibilities": [
+      "Responsible for gathering requirements to develop UI designs also handling backend services.",
+      "Technology used: React JS and Node JS."
+    ]
+  },
+  "northern_trust": {
+    "header": "Northern Trust",
+    "responsibilities": [
+      "Responsible for business and technical analysis for existing system and providing the RCA for reoccurring issues and solving them permanently.",
+      "Responsible for application service failure issues and outage calls also providing immediate fix for production issues and maintaining Asset Institutions & pricing database."
+    ]
+  }
+}

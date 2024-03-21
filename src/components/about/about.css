@@ -1,0 +1,89 @@
+
+
+.about-section{
+    display: flex;
+    margin: 2rem 8% 1.2rem;
+}
+.about-left-top-container{
+    width: 29%;
+    padding: 1rem;
+}
+.about-left-top-img{
+    background: linear-gradient(90deg, #3C58E3 -15%, #C2EBFF 58%, #5AB5E2 97%);
+    height: 18rem;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.about-right-top-container{
+    margin-left: 3%;
+    width: 62%;
+}
+.about-right-top-h1{
+    color: #fff;
+    font-size: 4rem;
+}
+.about-right-top-img img{
+    height: 6rem;
+}
+.about-right-top-text{
+    padding: 0rem 1rem;
+}
+.about-right-top-text h1{
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+
+
+/* About Middle */
+.aboutMiddle-container{
+    display: flex;
+    margin: 0 9% 1.2rem;
+}
+.aboutMiddle-left{
+    width: 48%;
+}
+.aboutMiddle-right{
+    margin-left: 2%;
+    width: 48%;
+}
+
+/* About Bottom */
+
+.aboutBottom-container{
+    display: flex;
+    margin: 0.2rem 9%;
+}
+.aboutBottom-left{
+    display: block;
+    width: 23%;
+}
+
+.aboutBottom-center{
+    margin-left: 2%;
+    width: 48%;
+}
+.aboutBottom-center-icons{
+    padding: 2rem;
+    width: 100%;
+}
+.aboutBottom-center-icons span{
+    padding: 2rem;
+    margin: auto;
+}
+.aboutBottom-right{
+    margin-left: 2%;
+    width: 23%;
+}
+
+
+.about-fragment svg:hover{
+    stroke: #fff !important;
+}
+.about-fragment svg:hover path{
+    stroke: #fff !important;
+}
+
+

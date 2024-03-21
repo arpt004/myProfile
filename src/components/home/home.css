@@ -1,0 +1,218 @@
+.home-container {
+  display: flex;
+  margin: 2rem 8% 1.2rem;
+}
+/* op left container */
+.home-left-container {
+  width: 49%;
+  border-radius: 30px; /* background: (120deg, rgba(255,255,255,0.3), rgba(255,255,255,0.05)); */
+  background: #323232;
+  padding: 2.5rem 2rem;
+  display: flex;
+  height: 14rem;
+}
+.home-left-me-img img {
+  width: 224px;
+  height: 224px;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(90deg, #3c58e3 -15%, #c2ebff 58%, #5ab5e2 97%);
+  border-radius: 30px 0px 30px 0;
+  flex: none;
+}
+.home-left-div-text {
+  margin: 1.5rem;
+}
+.home-left-div-text h1 {
+  color: #fff;
+}
+.home-left-btn {
+  text-align: right;
+}
+.home-left-btn a {
+  background: #323232;
+  border: none;
+}
+
+/* op right container */
+.home-right-container {
+  margin-left: 2%;
+  width: 49%;
+  height: 18.6rem;
+  border-radius: 30px;
+}
+.home-right-moving-text-container {
+  margin: 0px;
+}
+.home-right-moving-text {
+  position: relative;
+  min-width: 100%;
+  background: #323232;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.home-right-moving-text p {
+  margin: 0.5rem;
+  padding: 0.5rem; /* position: absolute; */
+  min-width: 100%;
+  animation: moving-text 10s linear infinite;
+  animation-direction: reverse;
+}
+@keyframes moving-text {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-99.3%);
+  }
+}
+
+.home-right-top-body {
+  min-width: 100%;
+  width: 100%;
+  display: flex;
+}
+.card-box {
+  background: #323232;
+  border-radius: 30px;
+  padding: 1rem;
+}
+.card-box img {
+  border-radius: 1rem;
+}
+.home-right-credential-box {
+  margin-top: 1.7rem;
+  width: 48%;
+}
+.home-right-credential-text {
+  display: flex;
+}
+.home-right-credential-btn {
+  width: 80%;
+}
+.home-right-credential-btn p {
+  margin-bottom: 0px;
+}
+.home-right-credential-btn h2 {
+  color: #fff;
+  margin: 0.2rem 0;
+}
+.home-right-credential-nextbtn {
+  text-align: right;
+  width: 20%;
+}
+.home-right-credential-nextbtn a svg {
+  padding-top: 1rem;
+}
+.home-right-myWorks-box {
+  margin-left: 4%;
+  width: 48%;
+  margin-top: 1.7rem;
+}
+
+/* ----------------------------------------------------------------------------- */ /* Middle Component */
+.middleComponent-container {
+  display: flex;
+  margin: 0.2rem 8%;
+}
+.middle-left {
+  width: 24%;
+}
+.middle-center {
+  margin-left: 2%;
+  width: 48.5%;
+}
+.middle-center-icons {
+  padding: 2rem;
+  width: 100%;
+}
+.middle-center-icons span {
+  padding: 2rem;
+  margin: auto;
+}
+.middle-right {
+  margin-left: 2%;
+  width: 23.5%;
+}
+/* ----------------------------------------------------------------------------- */ /* Bottom Component */
+.bottomComponent-container {
+  display: flex;
+  margin: 1.2rem 8%;
+}
+.bottom-left {
+  width: 49%;
+}
+.botton-left-container {
+  display: flex;
+  padding: 0.6rem;
+}
+.botton-left-container-exp {
+  width: 31%;
+}
+.botton-left-container-clients {
+  margin-left: 3.5%;
+  width: 31%;
+}
+.botton-left-container-projects {
+  margin-left: 3.5%;
+  width: 31%;
+}
+.small-card-container {
+  position: relative;
+  border-radius: 30px;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  text-align: center;
+  flex: 1;
+  padding: 30px;
+}
+.small-card-container h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+.small-card-container p {
+  margin: 0;
+  color: #9f9f9f;
+  font-weight: 500;
+}
+.bottom-right {
+  margin-left: 2%;
+  width: 49%;
+}
+.bottm-right-img-div img {
+  height: 6rem;
+}
+.bottom-right-container {
+  display: flex;
+  padding: 1rem;
+}
+.lets-work {
+  color: #fff;
+  line-height: 2rem;
+  width: 80%;
+  margin: 0 1rem;
+}
+.bottom-right-nextbtn {
+  width: 20%;
+  text-align: right;
+}
+.bottom-right-nextbtn a svg {
+  margin-top: 1rem;
+}
+
+.home-fragment svg:hover {
+  stroke: #fff !important;
+}
+.home-fragment svg:hover path {
+  stroke: #fff !important;
+}
+
+/* Icons Hover */
+.icon-react svg:hover {
+  fill: #fff;
+}
